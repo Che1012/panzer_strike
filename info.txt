@@ -1,0 +1,9 @@
+1x1 Multiplayer GameMode Waves Minigame Tactics LikeAutoChess
+Set your troops and fight for the zones!
+Make contr pick for your opponent and try your best in tactics! 
+Features:
++ Fast and exciting battles
++ Your own order and pick of units.
++ Manual control of unit is avalabile.
++ Cannons can be set for defence in your way. 
++ Can be easy made preset for mods with new units.

@@ -1,0 +1,166 @@
+	;SDL
+;----------------------------
+(define "vladimir" 
+	{tags "fighter %side infantry man"}
+	{cp     1.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/tv/vladimir" ("vladimir" side(tv))}
+
+(define "tagir" 
+	{tags "fighter %side infantry man"}
+	{cp     1.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/tv/tagir" ("tagir" side(tv))}
+;-------------------------------
+
+;-------------------------------
+(define "tankman"
+    {tags   "tankman %side crew man"}
+    {cp     1.0}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.25}
+)
+{"mp/panzer/ger_pz/tankman" ("tankman" side(ger_pz))}
+{"mp/panzer/rus_pz/tankman" ("tankman" side(rus_pz))}
+{"mp/panzer/tv/tankman" ("tankman" side(tv))}
+
+;-------------------------------
+(define "tankman_of"
+    {tags   "tankman %side crew man"}
+    {cp     1.0}
+    {score  0.25}
+    {basic}
+    {breed}
+    {cw 0.25}
+)
+{"mp/panzer/ger_pz/tankman_of" ("tankman_of" side(ger_pz))}
+{"mp/panzer/rus_pz/tankman_of" ("tankman_of" side(rus_pz))}
+{"mp/panzer/tv/tankman_of" ("tankman_of" side(tv))}
+
+;-------------------------------
+(define "sup"
+    {tags   "supporter %side infantry man"}
+    {cp     1.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/ger_pz/sup" ("sup" side(ger_pz))}
+{"mp/panzer/rus_pz/sup" ("sup" side(rus_pz))}
+{"mp/panzer/tv/sup" ("sup" side(tv))}
+
+;-------------------------------
+(define "rifle"
+    {tags   "rifle %side infantry man"}
+    {cp     1.0}
+    {score  0.50}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/ger_pz/rifle" ("rifle" side(ger_pz))}
+{"mp/panzer/rus_pz/rifle" ("rifle" side(rus_pz))}
+
+;-------------------------------
+(define "smg"
+    {tags   "smg %side infantry man"}
+    {cp     1.0}    ;;;;; 10 15 ????
+    {score  0.75}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/ger_pz/smg" ("smg" side(ger_pz))}
+{"mp/panzer/rus_pz/smg" ("smg" side(rus_pz))}
+
+;-------------------------------
+(define "mg"
+    {tags   "mgun %side infantry man"}
+    {cp     1.0}   ;;;;; 20 ????
+    {score  3.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/ger_pz/mg" ("mg" side(ger_pz))}
+{"mp/panzer/rus_pz/mg" ("mg" side(rus_pz))}
+
+;-------------------------------
+;(define "elite"
+;    {tags   "elite %side infantry man"}
+;    {cp     1.0}
+;    {score  1.40}
+;    {basic}
+;    {breed}
+;    {cw 3.0}
+;)
+;{"mp/rus/elite" ("elite" side(rus))}
+;{"mp/rus/elite2" ("elite" side(rus))}
+;{"mp/rus/elite3" ("elite" side(rus))}
+;{"mp/rus/elite4" ("elite" side(rus))}
+;{"mp/rus/elite5" ("elite" side(rus))}
+;{"mp/rus/elite6" ("elite" side(rus))}
+;{"mp/rus/elite_at" ("elite" side(rus))}
+;
+;
+;(define "sturmovik"
+;    {tags   "sturmovik %side spec infantry man"}
+;    {cp     1.0}
+;    {score  2.15}
+;    {basic}
+;    {breed}
+;    {cw 5.0}
+;)
+;
+;(define "flamer"
+;    {tags   "flamer %side spec infantry man"}
+;    {cp     1.0}
+;    {score  1.75}
+;    {basic}
+;    {breed}
+;    {cw 1.0}
+;)
+;-------------------------------
+(define "sniper"
+    {tags   "sniper %side spec infantry man"}
+    {cp     1.0}
+    {score  8.00}
+    {basic}
+    {breed}
+    {cw 2.0}
+)
+{"mp/panzer/ger_pz/sniper" ("sniper" side(ger_pz))}
+{"mp/panzer/rus_pz/sniper" ("sniper" side(rus_pz))}
+
+;-------------------------------
+(define "rpg"
+    {tags   "bazooker %side spec infantry man"}
+    {cp     1.0} ;;;;; 12????
+    {score  2.00}
+    {basic}
+    {breed}
+    {cw 1.0}
+)
+{"mp/panzer/ger_pz/rpg" ("rpg" side(ger_pz))}
+{"mp/panzer/rus_pz/rpg" ("rpg" side(rus_pz))}
+
+;-------------------------------
+;(define "at_rifle"
+;    {tags   "at_rifle %side spec infantry man"}
+;    {cp     1.0}
+;    {score  1.50}
+;    {basic}
+;    {breed}
+;    {cw 1.0}
+;)

@@ -1,0 +1,56 @@
+{breed
+	{skin "eng_officer"}
+	{portrait "eng_officer"}
+	{nationality eng}
+	{icon "officer"}
+	{icon_priority 6}
+	{armors
+		{head cap1_ger}
+	}
+	{tags "officer"}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" "lvl_3"
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "em2" filled}
+		{item "ammo rifle" 50}
+		{item "bandage" 5}
+		{in_hands 0}
+	}
+}

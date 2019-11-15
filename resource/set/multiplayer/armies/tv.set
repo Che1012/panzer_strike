@@ -1,0 +1,7 @@
+{army
+	{id 6}
+	{title "mp/army/tv"}
+	{icon "/interface/pages/multi/flag_tv"}
+	{flag "/interface/scene/common/flag-tv"}
+}
+

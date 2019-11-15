@@ -1,0 +1,237 @@
+{tags
+	{"multi"
+		{"a_frontlines"
+			{"1v1_icy_village"
+				{"name" "Зимняя деревня <e(shadow)><c(bebebe)>1x1</c>"}
+			}
+			{"2v2_moskow"
+				{"name" "Москва <e(shadow)><c(bebebe)>2x2</c>"}
+			}
+			{"2v2_silent_town"
+				{"name" "Тихий город <e(shadow)><c(bebebe)>2x2</c>"}
+			}
+			{"3v3_jungle"
+				{"name" "Бой в джунглях <e(shadow)><c(bebebe)>3x3</c>"}
+			}
+			{"3v3_sevastopol"
+				{"name" "Севастополь <e(shadow)><c(bebebe)>3x3</c>"}
+			}
+			{"3v3_omaha"
+				{"name" "Omaha <e(shadow)><c(bebebe)>3x3</c>"}
+			}
+		}
+		{"1v1_snowfields"
+			{"name" "Снежные поля <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_frozen_river"
+			{"name" "Замерзшая река <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_reloading_point"
+			{"name" "Перевалочный пункт <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_hills"
+			{"name" "Зимние холмы <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_church"
+			{"name" "Церковь зимой <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_road"
+			{"name" "Дорога <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_bocage"
+			{"name" "Бокаж <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_tram_depot"
+			{"name" "Трамвайное депо <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_farmstead"
+			{"name" "Усадьба <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_heights"
+			{"name" "Холмы <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_kanawa_mine"
+			{"name" "Канавский рудник <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_trainyard"
+			{"name" "Сортировочная станция <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_warehouse"
+			{"name" "Цех <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_canyon"
+			{"name" "Каньон <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_farmland"
+			{"name" "Сельхозрайон <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_frag_town"
+			{"name" "Город мёртвых <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_deadriver"
+			{"name" "Мёртвая река <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_kasserine_pass"
+			{"name" "Перевал Кассерин <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_westland"
+			{"name" "На запад <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"4v4_bazerville"
+			{"name" "Базервиль <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_town"
+			{"name" "Город <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_lakeland"
+			{"name" "Озёрный край <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_langres"
+			{"name" "Дорога на Лангр <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_suburb"
+			{"name" "Окраины 2 <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_nijmegen"
+			{"name" "Неймеген <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_village"
+			{"name" "Деревня <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_suburb_3"
+			{"name" "Предместья <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_forest"
+			{"name" "Лес <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_fields"
+			{"name" "Поля <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_rustle_of_sands"
+			{"name" "Шёпот песков <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_march"
+			{"name" "Восточный ветер <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"6v6_station"
+			{"name" "Холмы <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_hunting"
+			{"name" "Охота <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_dubovka"
+			{"name" "Дубовка <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_glubinka"
+			{"name" "Глубинка <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"8v8_desert_walk"
+			{"name" "Прогулка в пустыне <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"1v1_winter_fields"
+			{"name" "Зимние поля <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_plateau"
+			{"name" "Плато <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_crossing"
+			{"name" "Перекресток <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_saipan"
+			{"name" "Сайпан <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"5v5_railway_station"
+			{"name" "Вокзал <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_argentan"
+			{"name" "Аржантан <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_town"
+			{"name" "Зимний город <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"3v3_river_bank"
+			{"name" "Берег реки <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"4v4_depot"
+			{"name" "Депо <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_normandy"
+			{"name" "Нормандия <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_winter_harbor"
+			{"name" "Зимняя гавань <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_crossroads"
+			{"name" "Перекрестки <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_redoctober"
+			{"name" "Красный Октябрь <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"4v4_hutor"
+			{"name" "Хутор <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_port"
+			{"name" "Порт <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_spring"
+			{"name" "Весна <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_urban_garden"
+			{"name" "Городской сад<e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_bog"
+			{"name" "Топь<e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"2v2_cold_stream"
+			{"name" "Холодный поток<e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_oasis"
+			{"name" "Оазис<e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"8v8_facility"
+			{"name" "Объект<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_foothills"
+			{"name" "Предгорье<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_frostbite"
+			{"name" "Мороз<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_market"
+			{"name" "Рынок<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_sands"
+			{"name" "Пески<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"2v2_ramelle"
+			{"name" "Рамалла <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_elalamein"
+			{"name" "Эль-Аламейн <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_shattered"
+			{"name" "Разгром <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"5v5_docks"
+			{"name" "Доки <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"8v8_ostwind"
+			{"name" "Оствинд <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"1v1_vierville"
+			{"name" "Vierville <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_colleville"
+			{"name" "Colleville <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_russy"
+			{"name" "Russy <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"8v8_winter_walk"
+			{"name" "Winter walk <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"panzer_strike"
+			{"name" "Panzer strike <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+	}
+}

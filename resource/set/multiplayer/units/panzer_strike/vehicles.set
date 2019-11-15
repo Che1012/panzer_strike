@@ -1,0 +1,53 @@
+;----- Vehicles -----
+
+
+
+
+;같컂eneric같�
+
+(define "generic_v"
+    {charge %c}
+    {score %sc}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+    {cw %cw}
+    {cp %cp}
+)
+
+(define "generic_h"
+    {charge %c}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+)
+
+(define "generic_x"
+    {score %sc}
+    {tags "%t"}
+    {cw %cw}
+    {cp %cp}
+)
+
+
+
+;같컂eneric_v같�
+
+
+; 1 vehicle with tankmen
+(define "v_pz"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/panzer/%s/tankman:%n1 mp/panzer/%s/tankman_of:%n2)"}
+)
+
+; 1 vehicle with supporters
+(define "vs_pz"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/panzer/%s/sup:%n )"}
+)
+
+;------------------------------------------------------------------------------
+
+	(include "vehicles_ger_pz.set")
+	(include "vehicles_rus_pz.set")
+	;(include "vehicles_tv.set")
