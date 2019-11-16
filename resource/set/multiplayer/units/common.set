@@ -1,8 +1,8 @@
 ;SDL
 {units
-	;(include "soldiers.set")
-	;(include "squads.set")
-	;(include "vehicles.set")
+	(include "soldiers.set")
+	(include "squads.set")
+	(include "vehicles.set")
 
 	(include "panzer_strike/soldiers.set")
 	(include "panzer_strike/squads.set")

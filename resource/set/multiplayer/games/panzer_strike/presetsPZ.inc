@@ -1,7 +1,7 @@
-; == ALL_PANZER ==
-; game presets
+; == UMW_PANZER ==
+; mode presets
 ;----------------------------------------------------------------
-(define "all_panzer"
+(define "umw_panzer"
 	{common
 		{unitset
 			{value "all^arcade"}
@@ -40,9 +40,50 @@
 	}
 )
 ; == STD_PANZER ==
-; custom presets
+; standard presets
 ;----------------------------------------------------------------
 (define "std_panzer"
+	{common
+		{unitset
+			{value "all^arcade"}
+		}
+		{commandPoints "*=%cp"}
+		{balancingFactorBonus {cp 1.0} {mp 1.0} }
+		{chargeFactors
+			{value "*=0"}
+		}
+		{budgets
+			{vehicle
+				{mode "standard"}
+				{resource 
+					{start 		%start}
+					{finish 	%finish}
+					{growTime	1200}		; in seconds
+					{growTable 	"1.00"}
+					{payback
+						{cp 		"0		25		50 		60		70		80		90"}  
+						{restore 	"1.0	1.0		1.0		1.0		1.0		1.0		1.0"}
+					}
+				} 
+				{buttons "squad1 squad2 v1 v2 v3 v4 v5 hero_mp"}
+			}
+			{hero
+				{resource 
+					{start 		0}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
+		} 
+	}
+	{bots
+		(include "bots_generic.inc")
+	}
+)
+; == CUSTOM_PANZER ==
+; custom presets
+;----------------------------------------------------------------
+(define "custom_panzer"
 	{common
 		{unitset
 			{value "panzer"}
@@ -65,7 +106,7 @@
 						{restore 	"1.0	1.0		1.0		1.0		1.0		1.0		1.0"}
 					}
 				} 
-				{buttons "squad1 squad2 squad3 sent lr v1 v2 v3 v4 v5 hero_mp"}
+				{buttons "squad1 squad2 v1 v2 v3 v4 v5 hero_mp"}
 			}
 			{hero
 				{resource 
@@ -81,22 +122,21 @@
 	}
 )
 
-
 ;-----------------------------------------------------------------
 ;STD_PANZER
 ;-----------------------------------------------------------------
 { presets
-	{"c:std_panzer_1000"
+	{"c:std_panzer_3000"
 		{gameMode "std_panzer"}
 		{unitMode "std_panzer"}
-		{specMode "panzer_1000"}
-		("std_panzer" 			start(200) finish(1000) cp(1000))
+		{specMode "panzer_3000"}
+		("std_panzer" 			start(200) finish(3000) cp(1000))
 	}
 	{"c:std_panzer_5000"
 		{gameMode "std_panzer"}
 		{unitMode "std_panzer"}
 		{specMode "panzer_5000"}
-		("std_panzer" 			start(500) finish(5000) cp(1000))
+		("std_panzer" 			start(200) finish(5000) cp(1000))
 	}
 	{"c:std_panzer_10000"
 		{gameMode "std_panzer"}
@@ -105,25 +145,46 @@
 		("std_panzer" 			start(1000) finish(10000) cp(1000))
 	}
 ;------------------------------------------------------------------
-;ALL_PANZER
+;CUSTOM_PANZER
 ;------------------------------------------------------------------
-	{"c:all_panzer_1000"
-		{gameMode "all_panzer"}
-		{unitMode "all_panzer"}
-		{specMode "panzer_1000"}
-		("all_panzer" 			start(200) finish(1000) cp(1000))
+	{"c:custom_panzer_3000"
+		{gameMode "custom_panzer"}
+		{unitMode "custom_panzer"}
+		{specMode "panzer_3000"}
+		("custom_panzer" 			start(200) finish(3000) cp(1000))
 	}
-		{"c:all_panzer_5000"
-		{gameMode "all_panzer"}
-		{unitMode "all_panzer"}
+		{"c:custom_panzer_5000"
+		{gameMode "custom_panzer"}
+		{unitMode "custom_panzer"}
 		{specMode "panzer_5000"}
-		("all_panzer" 			start(500) finish(5000) cp(1000))
+		("custom_panzer" 			start(200) finish(5000) cp(1000))
 	}
-	{"c:all_panzer_10000"
-		{gameMode "all_panzer"}
-		{unitMode "all_panzer"}
+	{"c:custom_panzer_10000"
+		{gameMode "custom_panzer"}
+		{unitMode "custom_panzer"}
 		{specMode "panzer_10000"}
-		("all_panzer" 			start(1000) finish(10000) cp(1000))
+		("custom_panzer" 			start(1000) finish(10000) cp(1000))
+	}
+;------------------------------------------------------------------
+;UMW_PANZER
+;------------------------------------------------------------------
+	{"c:umw_panzer_3000"
+		{gameMode "umw_panzer"}
+		{unitMode "umw_panzer"}
+		{specMode "panzer_3000"}
+		("umw_panzer" 			start(200) finish(3000) cp(1000))
+	}
+		{"c:umw_panzer_5000"
+		{gameMode "umw_panzer"}
+		{unitMode "umw_panzer"}
+		{specMode "panzer_5000"}
+		("umw_panzer" 			start(200) finish(5000) cp(1000))
+	}
+		{"c:umw_panzer_10000"
+		{gameMode "umw_panzer"}
+		{unitMode "umw_panzer"}
+		{specMode "panzer_10000"}
+		("umw_panzer" 			start(1000) finish(10000) cp(1000))
 	}
 }
 
