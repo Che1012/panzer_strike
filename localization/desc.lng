@@ -1,6 +1,301 @@
 {tags
 	{"human"
+		{"special"
+			{"hint" "Подсказка"}
+			{"narrator_eng" "<c(c3baae)>офицер"}
+			{"narrator_ger" "<c(c3baae)>офицер"}
+			{"narrator_jap" "<c(c3baae)>офицер"}
+			{"narrator_rus" "<c(c3baae)>офицер"}
+			{"narrator_usa" "<c(c3baae)>офицер"}
+			{"narrator_peasant" "Гражданский"}
+		}
+		{"specila"
+			{"narrator_scientist" "Ученый"}
+		}
 		{"mp"
+			{"rus"
+				{"ap_miner" "<c(c3baae)>ПП минёр"}
+				{"at_miner" "<c(c3baae)>ПТ минёр"}
+				{"at_rifle" "<c(c3baae)>ПТ стрелок"}
+				{"at_rifle2" "<c(c3baae)>ПТ стрелок поддержки"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"elite" "<c(c3baae)>морпех"}
+				{"elite2" "<c(c3baae)>морпех"}
+				{"elite3" "<c(c3baae)>морпех"}
+				{"elite4" "<c(c3baae)>гвардеец-стрелок"}
+				{"elite5" "<c(c3baae)>гвардеец-стрелок"}
+				{"elite6" "<c(c3baae)>гвардеец-стрелок"}
+				{"elite_at" "<c(c3baae)>морпех"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"flamer3" "<c(c3baae)>истребители танков"}
+				{"home_guard" "<c(c3baae)>партизан"}
+				{"home_guard2" "<c(c3baae)>партизан"}
+				{"medic" "<c(c3baae)>санитар"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик-стрелок"}
+				{"rifle3" "<c(c3baae)>стрелок"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"scout" "<c(c3baae)>спецназовец"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"smg3" "<c(c3baae)>истребители танков"}
+				{"smg4" "<c(c3baae)>истребители танков"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"sniper2" "<c(c3baae)>гвардеец-снайпер"}
+				{"sturmovik" "<c(c3baae)>красногвардеец"}
+				{"sturmovik2" "<c(c3baae)>красногвардеец"}
+				{"sturmovik3" "<c(c3baae)>красногвардеец"}
+				{"sturmovik4" "<c(c3baae)>красногвардеец"}
+				{"sturmovik4b" "<c(c3baae)>красногвардеец"}
+				{"sturmovik5" "<c(c3baae)>красногвардеец"}
+				{"sturmovik5b" "<c(c3baae)>красногвардеец"}
+				{"sturmovik6" "<c(c3baae)>красногвардеец"}
+				{"sturmovik6b" "<c(c3baae)>красногвардеец"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>экипаж танка"}
+				{"tankman2" "<c(c3baae)>командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+				{"kuznetsoff_sp" "<c(c3baae)>Алексей Кузнецов"}
+				{"kuznetsoff" "<c(c3baae)>Алексей Кузнецов"}
+				{"kuznetsoff_pr" "<c(c3baae)>Алексей Кузнецов"}
+				{"maverick" "<c(c3baae)>Русский шпион Маверик"}
+				{"smirnoff" "<c(c3baae)>Виктор Смирнов"}
+			}
+			{"usa"
+				{"ap_miner" "<c(c3baae)>ПП минёр"}
+				{"at_miner" "<c(c3baae)>ПТ минёр"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"elite" "<c(c3baae)>десантник"}
+				{"elite2" "<c(c3baae)>десантник"}
+				{"elite3" "<c(c3baae)>десантник"}
+				{"elite4" "<c(c3baae)>морпех США"}
+				{"elite5" "<c(c3baae)>морпех США"}
+				{"elite6" "<c(c3baae)>морпех США"}
+				{"elite_at" "<c(c3baae)>десантник"}
+				{"elite_para" "<c(c3baae)>десантник 101-й дивизии"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"home_guard" "<c(c3baae)>призывник"}
+				{"home_guard2" "<c(c3baae)>призывник"}
+				{"medic" "<c(c3baae)>санитар"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"mgun2" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик-стрелок"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"saper2" "<c(c3baae)>минер"}
+				{"scout" "<c(c3baae)>коммандос"}
+				{"scout2" "<c(c3baae)>коммандос"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"shotgun" "<c(c3baae)>боец с дробовиком"}
+				{"sturmovik" "<c(c3baae)>рейнджер"}
+				{"sturmovik2" "<c(c3baae)>рейнджер"}
+				{"sturmovik3" "<c(c3baae)>рейнджер"}
+				{"sturmovik4" "<c(c3baae)>рейнджер"}
+				{"sturmovik4b" "<c(c3baae)>рейнджер"}
+				{"sturmovik5" "<c(c3baae)>рейнджер"}
+				{"sturmovik5b" "<c(c3baae)>рейнджер"}
+				{"sturmovik6" "<c(c3baae)>рейнджер"}
+				{"sturmovik6b" "<c(c3baae)>рейнджер"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>танкист"}
+				{"tankman2" "<c(c3baae)>командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+			}
+			{"ger"
+				{"ap_miner" "<c(c3baae)>ПП минёр"}
+				{"at_miner" "<c(c3baae)>ПТ минёр"}
+				{"at_rifle" "<c(c3baae)>ПТ стрелок"}
+				{"at_rifle2" "<c(c3baae)>ПТ стрелок поддержки"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"bazooker3" "<c(c3baae)>бронебойщик"}
+				{"elite" "<c(c3baae)>парашютист"}
+				{"elite2" "<c(c3baae)>парашютист"}
+				{"elite3" "<c(c3baae)>парашютист"}
+				{"elite4" "<c(c3baae)>бранденбуржец"}
+				{"elite5" "<c(c3baae)>бранденбуржец"}
+				{"elite6" "<c(c3baae)>бранденбуржец"}
+				{"elite_at" "<c(c3baae)>парашютист"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"home_guard" "<c(c3baae)>фольксштурм"}
+				{"home_guard2" "<c(c3baae)>фольксштурм"}
+				{"medic" "<c(c3baae)>санитар"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик-стрелок"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"sniper2" "<c(c3baae)>снайпер-ветеран"}
+				{"sturmovik" "<c(c3baae)>гренадёр"}
+				{"sturmovik2" "<c(c3baae)>гренадёр"}
+				{"sturmovik3" "<c(c3baae)>гренадёр"}
+				{"sturmovik4" "<c(c3baae)>гренадёр"}
+				{"sturmovik4b" "<c(c3baae)>гренадёр"}
+				{"sturmovik5" "<c(c3baae)>гренадёр"}
+				{"sturmovik5b" "<c(c3baae)>гренадёр"}
+				{"sturmovik6" "<c(c3baae)>гренадёр"}
+				{"sturmovik6b" "<c(c3baae)>гренадёр"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>танкист"}
+				{"tankman2" "<c(c3baae)>командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+			}
+			{"eng"
+				{"ap_miner" "<c(c3baae)>ПП минёр"}
+				{"at_miner" "<c(c3baae)>ПТ минёр"}
+				{"at_rifle" "<c(c3baae)>ПТ стрелок"}
+				{"at_rifle2" "<c(c3baae)>ПТ стрелок поддержки"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"elite" "<c(c3baae)>коммандос"}
+				{"elite2" "<c(c3baae)>коммандос"}
+				{"elite3" "<c(c3baae)>коммандос"}
+				{"elite4" "<c(c3baae)>боец АНЗАК"}
+				{"elite5" "<c(c3baae)>боец АНЗАК"}
+				{"elite6" "<c(c3baae)>боец АНЗАК"}
+				{"elite_at" "<c(c3baae)>коммандос"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"home_guard" "<c(c3baae)>ополченец"}
+				{"home_guard2" "<c(c3baae)>ополченец"}
+				{"medic" "<c(c3baae)>санитар"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"mgun2" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик-стрелок"}
+				{"rifle3" "<c(c3baae)>стрелок"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"saper2" "<c(c3baae)>инженер Королевского корпуса"}
+				{"saper3" "<c(c3baae)>инженер Королевского корпуса"}
+				{"scout" "<c(c3baae)>диверсант"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"smg3" "<c(c3baae)>автоматчик"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"sturmovik" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik2" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik3" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik4" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik4b" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik4c" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik5" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik5b" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik6" "<c(c3baae)>британский спецназовец"}
+				{"sturmovik6b" "<c(c3baae)>британский спецназовец"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>танкист"}
+				{"tankman2" "<c(c3baae)>командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+			}
+			{"jap"
+				{"at_miner" "<c(c3baae)>ПП минёр"}
+				{"ap_miner" "<c(c3baae)>ПТ минёр"}
+				{"at_rifle" "<c(c3baae)>ПТ стрелок"}
+				{"at_rifle2" "<c(c3baae)>ПТ стрелок поддержки"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"bazooker3" "<c(c3baae)>бронебойщик"}
+				{"elite" "<c(c3baae)>парашютист"}
+				{"elite2" "<c(c3baae)>парашютист"}
+				{"elite3" "<c(c3baae)>парашютист"}
+				{"elite4" "<c(c3baae)>парашютист"}
+				{"elite_at" "<c(c3baae)>парашютист"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"home_guard" "<c(c3baae)>новобранец"}
+				{"home_guard2" "<c(c3baae)>новобранец"}
+				{"kamikaze" "<c(c3baae)>камикадзе"}
+				{"medic" "<c(c3baae)>санитар"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик-стрелок"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"sturmovik" "<c(c3baae)>японский морпех"}
+				{"sturmovik2" "<c(c3baae)>японский морпех"}
+				{"sturmovik3" "<c(c3baae)>японский морпех"}
+				{"sturmovik4" "<c(c3baae)>японский морпех"}
+				{"sturmovik4b" "<c(c3baae)>японский морпех"}
+				{"sturmovik5" "<c(c3baae)>японский морпех"}
+				{"sturmovik5b" "<c(c3baae)>японский морпех"}
+				{"sturmovik6" "<c(c3baae)>японский морпех"}
+				{"sturmovik6b" "<c(c3baae)>японский морпех"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>танкист"}
+				{"tankman2" "<c(c3baae)>командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+			}
+			{"ger2"
+				{"ap_miner" "<c(c3baae)>ПП минёр"}
+				{"at_miner" "<c(c3baae)>ПТ минёр"}
+				{"at_rifle" "<c(c3baae)>ПТ стрелок"}
+				{"at_rifle2" "<c(c3baae)>ПТ стрелок поддержки"}
+				{"bazooker" "<c(c3baae)>бронебойщик"}
+				{"bazooker2" "<c(c3baae)>бронебойщик поддержки"}
+				{"bazooker3" "<c(c3baae)>бронебойщик"}
+				{"elite" "<c(c3baae)>егерь"}
+				{"elite2" "<c(c3baae)>егерь"}
+				{"elite3" "<c(c3baae)>егерь"}
+				{"elite4" "<c(c3baae)>штрафник"}
+				{"elite5" "<c(c3baae)>штрафник"}
+				{"elite6" "<c(c3baae)>штрафник"}
+				{"elite_at" "<c(c3baae)>егерь"}
+				{"flamer" "<c(c3baae)>огнемётчик"}
+				{"flamer2" "<c(c3baae)>огнемётчик поддержки"}
+				{"home_guard" "<c(c3baae)>лёгкий разведчик"}
+				{"home_guard2" "<c(c3baae)>лёгкий разведчик"}
+				{"mgun" "<c(c3baae)>пулемётчик"}
+				{"oficer" "<c(c3baae)>офицер"}
+				{"oficer2" "<c(c3baae)>опытный офицер"}
+				{"radioman" "<c(c3baae)>радист"}
+				{"rifle" "<c(c3baae)>стрелок"}
+				{"rifle2" "<c(c3baae)>штурмовик"}
+				{"saper" "<c(c3baae)>сапёр"}
+				{"smg" "<c(c3baae)>автоматчик"}
+				{"smg2" "<c(c3baae)>штурмовик-автоматчик"}
+				{"sniper" "<c(c3baae)>снайпер"}
+				{"sturmovik" "<c(c3baae)>горный егерь"}
+				{"sturmovik2" "<c(c3baae)>горный егерь"}
+				{"sturmovik3" "<c(c3baae)>горный егерь"}
+				{"sturmovik4" "<c(c3baae)>горный егерь"}
+				{"sturmovik4b" "<c(c3baae)>горный егерь"}
+				{"sturmovik5" "<c(c3baae)>горный егерь"}
+				{"sturmovik5b" "<c(c3baae)>горный егерь"}
+				{"sturmovik6" "<c(c3baae)>горный егерь"}
+				{"sturmovik6b" "<c(c3baae)>горный егерь"}
+				{"squadleader" "<c(c3baae)>командир отделения"}
+				{"squadleader2" "<c(c3baae)>командир штурмового отделения"}
+				{"tankman" "<c(c3baae)>опытный танкист"}
+				{"tankman2" "<c(c3baae)>опытный командир танка"}
+				{"vehicle_supporter" "<c(c3baae)>солдат"}
+			}
 			{"panzer"
 				{"ger_pz"
 					{"rifle" "Стрелок"}
@@ -28,8 +323,219 @@
 				}
 			}
 		} 
+		{"civilian"
+			{"civilian1" "Гражданский"}
+			{"civilian2" "Гражданский"}
+			{"civilian3" "Гражданский"}
+			{"civilian4" "Гражданский"}
+			{"civilian5" "Гражданский"}
+		}
 	}
 	{"squad"
+		{"ap_miners(eng)" "ПП минёры"}
+		{"ap_miners(ger)" "ПП минёры"}
+		{"ap_miners(jap)" "ПП минёры"}
+		{"ap_miners(rus)" "ПП минёры"}
+		{"ap_miners(usa)" "ПП минёры"}
+		{"ap_miners(ger2)" "ПП минёры"}
+		{"at_miners(eng)" "ПТ минёры"}
+		{"at_miners(ger)" "ПТ минёры"}
+		{"at_miners(jap)" "ПТ минёры"}
+		{"at_miners(rus)" "ПТ минёры"}
+		{"at_miners(usa)" "ПТ минёры"}
+		{"at_miners(ger2)" "ПТ минёры"}
+		{"at_rifles(eng)" "ПТ стрелок"}
+		{"at_rifles(ger)" "ПТ стрелок"}
+		{"at_rifles(jap)" "ПТ стрелок"}
+		{"at_rifles(rus)" "ПТ стрелок"}
+		{"at_rifles(ger2)" "ПТ стрелок"}
+		{"bazookers(eng)" "Бронебойщик"}
+		{"bazookers(ger)" "Бронебойщик"}
+		{"bazookers(jap)" "Бронебойщик"}
+		{"bazookers(rus)" "Бронебойщик"}
+		{"bazookers(usa)" "Бронебойщик"}
+		{"bazookers(ger2)" "Бронебойщики"}
+		{"elites(eng)" "Коммандос"}
+		{"elites(ger)" "Десантники"}
+		{"elites(jap)" "Десантники"}
+		{"elites(rus)" "Морпехи"}
+		{"elites(usa)" "Десант"}
+		{"elites(ger2)" "Егеря"}
+		{"flamers(eng)" "огнемётчик"}
+		{"flamers(ger)" "огнемётчик"}
+		{"flamers(jap)" "огнемётчик"}
+		{"flamers(rus)" "огнемётчик"}
+		{"flamers(usa)" "огнемётчик"}
+		{"flamers(ger2)" "Огнемётчики"}
+		{"home_guards(eng)" "Ополчение"}
+		{"home_guards(ger)" "Фольксштурм"}
+		{"home_guards(jap)" "Новобранцы"}
+		{"home_guards(rus)" "Партизан"}
+		{"home_guards(usa)" "Призывники"}
+		{"home_guards(ger2)" "Лёгкие разведчики"}
+		{"kamikazes(jap)" "Камикадзе"}
+		{"mgs2(eng)" "Пулемётчик"}
+		{"mgs2(ger)" "Пулемётчик"}
+		{"mgs2(jap)" "Пулемётчик"}
+		{"mgs2(rus)" "Пулемётчик"}
+		{"mgs2(usa)" "Пулемётчик"}
+		{"mgs2(ger2)" "Пулемётчики"}
+		{"officers(eng)" "Офицер"}
+		{"officers(ger)" "Офицер"}
+		{"officers(jap)" "Офицер"}
+		{"officers(rus)" "Офицер"}
+		{"officers(usa)" "Офицер"}
+		{"officers(ger2)" "Офицеры"}
+		{"riflemans(eng)" "Пехотинец"}
+		{"riflemans(ger)" "Пехотинец"}
+		{"riflemans(jap)" "Пехотинец"}
+		{"riflemans(rus)" "Пехотинец"}
+		{"riflemans(usa)" "Пехотинец"}
+		{"riflemans(ger2)" "Ветераны"}
+		{"riflemans2(eng)" "Стрелок"}
+		{"riflemans2(ger)" "Стрелок"}
+		{"riflemans2(jap)" "Стрелок"}
+		{"riflemans2(rus)" "Стрелок"}
+		{"riflemans2(usa)" "Стрелок"}
+		{"riflemans2(ger2)" "Стрелки"}
+		{"sappers(eng)" "Сапёры"}
+		{"sappers(ger)" "Сапёры"}
+		{"sappers(jap)" "Сапёры"}
+		{"sappers(rus)" "Сапёры"}
+		{"sappers(usa)" "Сапёры"}
+		{"sappers(ger2)" "Сапёры"}
+		{"smgs(eng)" "Штурмовик"}
+		{"smgs(ger)" "Штурмовик"}
+		{"smgs(jap)" "Штурмовик"}
+		{"smgs(rus)" "Штурмовик"}
+		{"smgs(usa)" "Штурмовик"}
+		{"smgs(ger2)" "Штурмовики"}
+		{"smgs2(eng)" "Автомат"}
+		{"smgs2(ger)" "Автомат"}
+		{"smgs2(jap)" "Автомат"}
+		{"smgs2(rus)" "Автомат"}
+		{"smgs2(usa)" "Автомат"}
+		{"smgs2(ger2)" "Автоматчики"}
+		{"snipers(eng)" "Снайпер"}
+		{"snipers(ger)" "Снайпер"}
+		{"snipers(jap)" "Снайпер"}
+		{"snipers(rus)" "Снайпер"}
+		{"snipers(usa)" "Снайпер"}
+		{"snipers(ger2)" "Снайперы"}
+		{"snipers_d(eng)" "Снайпер"}
+		{"snipers_d(ger)" "Снайпер"}
+		{"snipers_d(jap)" "Снайпер"}
+		{"snipers_d(rus)" "Снайпер"}
+		{"snipers_d(usa)" "Снайпер"}
+		{"shotguns(usa)" "Бойцы с дробовиками"}
+		{"stormtroopers(eng)" "Британский спецназ"}
+		{"stormtroopers1(eng)" "Элитные снайперы"}
+		{"stormtroopers2(eng)" "Элитные истребители танков"}
+		{"stormtroopers3(eng)" "Элитная пехота поддержки"}
+		{"stormtroopers(ger)" "Гренадёр"}
+		{"stormtroopers1(ger)" "Элитные снайперы"}
+		{"stormtroopers2(ger)" "Элитные истребители танков"}
+		{"stormtroopers3(ger)" "Элитная пехота поддержки"}
+		{"stormtroopers(jap)" "Японские морпехи"}
+		{"stormtroopers1(jap)" "Элитные снайперы"}
+		{"stormtroopers2(jap)" "Элитные истребители танков"}
+		{"stormtroopers3(jap)" "Элитная пехота поддержки"}
+		{"stormtroopers(rus)" "Красноармейцы"}
+		{"stormtroopers1(rus)" "Элитные снайперы"}
+		{"stormtroopers2(rus)" "Элитные истребители танков"}
+		{"stormtroopers3(rus)" "Элитная пехота поддержки"}
+		{"stormtroopers(usa)" "Рейнджеры"}
+		{"stormtroopers1(usa)" "Элитные снайперы"}
+		{"stormtroopers2(usa)" "Элитные истребители танков"}
+		{"stormtroopers3(usa)" "Элитная пехота поддержки"}
+		{"stormtroopers(ger2)" "Горные егеря"}
+		{"stormtroopers1(ger2)" "Опытные снайперы"}
+		{"stormtroopers2(ger2)" "Опытные бронебойщики"}
+		{"stormtroopers3(ger2)" "Опытная пехота поддержки"}
+		{"storm_mech_eng" "Механизированный британский спецназ"}
+		{"storm_mech_ger" "Механизированные гренадёры"}
+		{"storm_mech_jap" "Механизированные японские морпехи"}
+		{"storm_mech_rus" "Механизированные красногвардейцы"}
+		{"storm_mech_usa" "Механизированные рейнджеры"}
+		{"storm_mech_ost" "Механизированные горные егеря"}
+		{"tankmans(eng)" "Танкист"}
+		{"tankmans(ger)" "Танкист"}
+		{"tankmans(jap)" "Танкист"}
+		{"tankmans(rus)" "Танкист"}
+		{"tankmans(usa)" "Танкист"}
+		{"tankmans(ger2)" "Опытные танкисты"}
+		{"hero1_eng" "Диверсант"}
+		{"hero2_eng" "Королевский инженерный корпус"}
+		{"hero3_eng" "Бойцы АНЗАК"}
+		{"hero4_eng" "Королевские коммандос"}
+		{"hero5_eng" "Радист"}
+		{"hero6_eng" "Черчилль Крокодил"}
+		{"hero7_eng" "Королевский полк артиллерии"}
+		{"hero8_eng" "Сапёрный танк \"Черчилль\""}
+		{"hero9_eng" "Черный Принц"}
+		{"heronew1_eng" "Черный Дозор"}
+		{"heronew2_eng" "Mk.VI \"Кромвель\""}
+		{"heronew3_eng" "M4A4 Tulip"}
+		{"hero1_ger" "Снайпер-ветеран"}
+		{"hero2_ger" "Бранденбуржец"}
+		{"hero3_ger" "Голиаф"}
+		{"hero4_ger" "Десант"}
+		{"hero5_ger" "Радист"}
+		{"hero6_ger" "StuH 42"}
+		{"hero7_ger" "Nebelwerfer 41"}
+		{"hero8_ger" "Тигр Ветеран"}
+		{"hero9_ger" "Штурмтигр"}
+		{"heronew1_ger" "Отряд гранатомётчиков"}
+		{"heronew2_ger" "Мардер 3H"}
+		{"heronew3_ger" "PaK 43"}
+		{"hero1_ost" "Опытный офицер"}
+		{"hero2_ost" "Отряд с \"Панцершреком\""}
+		{"hero3_ost" "SdKfz.234/3"}
+		{"hero4_ost" "Штрафник"}
+		{"hero5_ost" "Штурмовик"}
+		{"hero6_ost" "SdKfz.234/4"}
+		{"hero7_ost" "Радист"}
+		{"hero8_ost" "Трофейный Т-34/85"}
+		{"hero9_ost" "SWG.41"}
+		{"hero10_ost" "SdKfz.8 с Flak.37"}
+		{"hero11_ost" "Бруммбер"}
+		{"hero12_ost" "Ягдтигр"}
+		{"hero1_jap" "ПТ-гранатометчики"}
+		{"hero2_jap" "Камикадзе!"}
+		{"hero3_jap" "Праведный гнев"}
+		{"hero4_jap" "Морской десант"}
+		{"hero5_jap" "Радист"}
+		{"hero6_jap" "Банзай!"}
+		{"hero7_jap" "200-мм снаряд"}
+		{"hero8_jap" "Танк морской пехоты"}
+		{"hero9_jap" "Хо-Ри 1"}
+		{"heronew1_jap" "Огнеметный танк SS-D"}
+		{"heronew2_jap" "Хо-Ни 3"}
+		{"heronew3_jap" "Миномёт, тип 97"}
+		{"hero1_rus" "Спецназ"}
+		{"hero2_rus" "Гвардеец-стрелок"}
+		{"hero3_rus" "Гвардеец-снайпер"}
+		{"hero4_rus" "Черные бушлаты"}
+		{"hero5_rus" "Все в бой!"}
+		{"hero6_rus" "Радист"}
+		{"hero7_rus" "Штурмовые подразделения"}
+		{"hero8_rus" "КВ-2"}
+		{"hero9_rus" "Б-4М, 203-мм"}
+		{"heronew1_rus" "Истребители танков"}
+		{"heronew2_rus" "БС-3"}
+		{"heronew3_rus" "БМ-8-24"}
+		{"hero1_usa" "Гаубица М8"}
+		{"hero2_usa" "Морская пехота США"}
+		{"hero3_usa" "101-я воздушно-десантная дивизия"}
+		{"hero4_usa" "M4A3R2 \"Зиппо\""}
+		{"hero5_usa" "Радист"}
+		{"hero6_usa" "M4A3(105)"}
+		{"hero7_usa" "Массовое производство"}
+		{"hero8_usa" "M4A3E2(76)W \"Джамбо\""}
+		{"hero9_usa" "Супер-Першинг"}
+		{"heronew1_usa" "Браунинг А6"}
+		{"heronew2_usa" "Минёры"}
+		{"heronew3_usa" "Бригада Дьявола"}
 		{"rifles(ger_pz)" "Стрелок"}
 		{"smgs(ger_pz)" "Автоматчик"}
 		{"mgs(ger_pz)" "Пулемётчик"}
