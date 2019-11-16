@@ -3,4 +3,5 @@
 	{Desc "Alpha version of Panzer Strike"}
 	{MinGameVersion "3.260"}
 	{MaxGameVersion "3.265"}
+	{FileId "1913428795"}
 }

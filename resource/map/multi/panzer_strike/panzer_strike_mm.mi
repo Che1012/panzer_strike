@@ -1,6 +1,6 @@
 {mission
 	{Entity "map_point" 0xa000
-		{Position 5773.61 -225.82}
+		{Position 5520.62 -194.61}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a1}
@@ -73,7 +73,7 @@
 		{MID 2}
 	}
 	{Entity "map_point" 0x8000
-		{Position -5867.92 -237.58}
+		{Position -5578.23 -199.88}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b1}
@@ -95,20 +95,20 @@
 	{Helpers
 		{event "str"}
 		{zone "poly"
-			{position 5235.86 3.7928 0}
+			{position 5099.86 0.640328 0}
 			{Name "pl1_spawn0"}
-			{Point -209.865 -79.229}
-			{Point -208.809 70.0284}
-			{Point 209.538 80.0932}
-			{Point 209.136 -70.8926}
+			{Point -73.8606 -76.0766}
+			{Point -72.8046 73.1808}
+			{Point 76.8263 74.4337}
+			{Point 69.8388 -71.5379}
 		}
 		{zone "poly"
-			{position 5236.71 -148.42 0}
+			{position 5097.44 -150.77 0}
 			{Name "pl1_spawn1"}
-			{Point -207.993 -77.6184}
-			{Point -210.834 72.552}
-			{Point 209.937 80.7583}
-			{Point 208.89 -75.6919}
+			{Point -68.7184 -75.2679}
+			{Point -71.5594 74.9025}
+			{Point 68.437 71.2178}
+			{Point 71.8408 -70.8524}
 		}
 		{zone "poly"
 			{position 5382.37 -303.611 0}
@@ -127,20 +127,20 @@
 			{Point 65.298 -70.366}
 		}
 		{zone "poly"
-			{position 5237.05 -302.373 0}
+			{position 5100.78 -302.373 0}
 			{Name "pl1_spawn2"}
-			{Point -209.976 -74.1082}
-			{Point -208.031 75.6382}
-			{Point 208.902 76.8518}
-			{Point 209.105 -78.3818}
+			{Point -73.7082 -74.1083}
+			{Point -71.7632 75.6381}
+			{Point 71.6909 72.9171}
+			{Point 73.7805 -74.4468}
 		}
 		{zone "poly"
-			{position 5236.83 -452.257 0}
+			{position 5100.65 -450.72 0}
 			{Name "pl1_spawn3"}
-			{Point -209.915 -72.8888}
-			{Point -209.245 73.9554}
-			{Point 208.525 69.5834}
-			{Point 210.634 -70.65}
+			{Point -73.7364 -74.4258}
+			{Point -73.0664 72.4185}
+			{Point 71.6017 71.3805}
+			{Point 75.2011 -69.3732}
 		}
 		{zone "poly"
 			{position 5254.08 4.54434 0}
@@ -151,12 +151,12 @@
 			{Point 71.7887 -76.2972}
 		}
 		{zone "poly"
-			{position 5250.77 -149.616 0}
+			{position 5249.59 -150.495 0}
 			{Name "pl1_spawn5"}
-			{Point -72.7661 -75.1132}
-			{Point -72.0813 75.1291}
-			{Point 74.779 76.6233}
-			{Point 70.0684 -76.6392}
+			{Point -71.5836 -74.2343}
+			{Point -75.629 72.4924}
+			{Point 75.9616 77.5022}
+			{Point 71.251 -75.7603}
 		}
 		{zone "poly"
 			{position 5248.71 -304.555 0}
@@ -2054,15 +2054,13 @@
 					{"call"
 						{function "pl4_reset_tags"}
 					}
-					{"entity_state"
-						{selector
-							{tag player4}
-						}
-						{inactive off}
+					{"delay"
+						{time 1}
 					}
 					{"actor_state"
 						{selector
-							{zone "sidea_spawn_zone"}
+							{tag player4}
+							{zone "sideb_spawn_zone"}
 						}
 						{control AI}
 						{fire_mode open}
@@ -2078,6 +2076,12 @@
 						{ai
 							{no_retreat on}
 						}
+					}
+					{"entity_state"
+						{selector
+							{tag player4}
+						}
+						{inactive off}
 					}
 					{"entity_state"
 						{selector
@@ -2097,15 +2101,13 @@
 					{"call"
 						{function "pl1_reset_tags"}
 					}
-					{"entity_state"
-						{selector
-							{tag player1}
-						}
-						{inactive off}
+					{"delay"
+						{time 1}
 					}
 					{"actor_state"
 						{selector
-							{zone "sideb_spawn_zone"}
+							{tag player1}
+							{zone "sidea_spawn_zone"}
 						}
 						{control AI}
 						{fire_mode open}
@@ -2122,11 +2124,26 @@
 							{no_retreat on}
 						}
 					}
+					{"entity_state"
+						{selector
+							{tag player1}
+						}
+						{inactive off}
+					}
 					{"delay"
 						{time 5}
 					}
 					{"trigger"
 						{name "main/spawn"}
+					}
+				}
+			}
+			{"main/clip"
+				{condition
+				}
+				{actions
+					{"set_clip"
+						{name cam}
 					}
 				}
 			}
