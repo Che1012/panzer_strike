@@ -1,8 +1,0 @@
-;SDL
-(include "stuff.ext")
-{volume "body" 
-	{able {visible 0}}
-	{thickness 1}
-}
-{props "nocover"}
-{lodclass "stuff_small"}

@@ -1,6 +1,0 @@
-{army
-	{id 8}
-	{title "mp/army/rus_pz"}
-	{icon "/interface/pages/multi/flag_rus"}
-	{flag "/interface/scene/common/flag-ussr"}
-}
