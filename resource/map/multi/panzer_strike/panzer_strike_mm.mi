@@ -1,6 +1,6 @@
 {mission
 	{Entity "map_point" 0xa000
-		{Position 5764.02 -211.9}
+		{Position 5715.45 797.14}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a1}
@@ -73,7 +73,7 @@
 		{MID 2}
 	}
 	{Entity "map_point" 0x8000
-		{Position -5770.36 -222.29}
+		{Position -5796.39 -1229.37}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b1}
@@ -92,7 +92,7 @@
 		{MID 4}
 	}
 	{Entity "map_point" 0xb008
-		{Position -5774.17 -1275.26}
+		{Position -5780.56 -208.27}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b2}
@@ -111,7 +111,7 @@
 		{MID 18}
 	}
 	{Entity "map_point" 0xb009
-		{Position -5769.47 825.13}
+		{Position -5754.75 838.7}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b3}
@@ -130,7 +130,7 @@
 		{MID 19}
 	}
 	{Entity "map_point" 0xc001
-		{Position 5776.73 820.65}
+		{Position 5734.77 -216.43}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a2}
@@ -149,7 +149,7 @@
 		{MID 32}
 	}
 	{Entity "map_point" 0xc00c
-		{Position 5777.48 -1284.29}
+		{Position 5773.77 -1309.37}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a3}
@@ -3796,7 +3796,7 @@
 			0 1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 1}
+	{Fog 0}
 	{EntityManager {Enabled}
 	}
 }

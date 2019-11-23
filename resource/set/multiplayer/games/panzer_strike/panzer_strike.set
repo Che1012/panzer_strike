@@ -12,7 +12,7 @@
 		;{gameDuration 		"90 min"} ; min
 		{scoreMin			25}
 		{scoreMax			1000}
-		{scoreFinal			300}
+		{scoreFinal			50}
 		{preparationTimeMin	0}
 		{preparationTimeMax	0}
 		{preparationTime	0}
