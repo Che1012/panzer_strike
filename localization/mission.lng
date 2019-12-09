@@ -1,7 +1,9 @@
 {tags
 	{"multi"
 		{"panzer_strike"
-			{"name" "Panzer - strike <e(shadow)><c(bebebe)>3x3</c>"}
+			{"name" "Panzer strike <e(shadow)><c(bebebe)>3x3</c>"}
+			{"rules" "Welcome to Panzer Strike arena, captain!\n Capture stategic points to win.\n\n 1) Place your soldiers in square.\n 2) Wait for the next wave.\n 3) Control your soldier or vehicle manualy.\n 4) Control your cannons to create defence.\n 5) Enjoy endlless warfare!\n\n Good Luck!"}
+			{"wave" "Next wave in:"}
 		}
 	}
 }

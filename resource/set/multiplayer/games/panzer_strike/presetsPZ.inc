@@ -126,12 +126,6 @@
 ;STD_PANZER
 ;-----------------------------------------------------------------
 { presets
-	{"c:std_panzer_3000"
-		{gameMode "std_panzer"}
-		{unitMode "std_panzer"}
-		{specMode "panzer_3000"}
-		("std_panzer" 			start(200) finish(3000) cp(1000))
-	}
 	{"c:std_panzer_5000"
 		{gameMode "std_panzer"}
 		{unitMode "std_panzer"}
@@ -147,13 +141,7 @@
 ;------------------------------------------------------------------
 ;CUSTOM_PANZER
 ;------------------------------------------------------------------
-	{"c:custom_panzer_3000"
-		{gameMode "custom_panzer"}
-		{unitMode "custom_panzer"}
-		{specMode "panzer_3000"}
-		("custom_panzer" 			start(200) finish(3000) cp(1000))
-	}
-		{"c:custom_panzer_5000"
+	{"c:custom_panzer_5000"
 		{gameMode "custom_panzer"}
 		{unitMode "custom_panzer"}
 		{specMode "panzer_5000"}
@@ -168,13 +156,7 @@
 ;------------------------------------------------------------------
 ;UMW_PANZER
 ;------------------------------------------------------------------
-	{"c:umw_panzer_3000"
-		{gameMode "umw_panzer"}
-		{unitMode "umw_panzer"}
-		{specMode "panzer_3000"}
-		("umw_panzer" 			start(200) finish(3000) cp(1000))
-	}
-		{"c:umw_panzer_5000"
+	{"c:umw_panzer_5000"
 		{gameMode "umw_panzer"}
 		{unitMode "umw_panzer"}
 		{specMode "panzer_5000"}

@@ -1,7 +1,7 @@
 {mission
 	{Entity "map_point" 0xa000
 		{Position 5715.45 797.14}
-		{xform zl -176.37}
+		{xform zl -176.37 scale 0.997}
 		{Extender "map_point"
 			{name a1}
 			{team a}
@@ -196,6 +196,22 @@
 	{Entity "coaster_ship_crate3" 0xc015
 		{Position -5466.47 -678.09}
 		{xform zl -90.46}
+	}
+	{Human "special/hint" 0xc000
+		{Position 6200.78 -964.63}
+		{xform zl -44.84}
+		{Player 0}
+		{MID 6}
+		{NameId 39 57}
+		{FsmState "squat"}
+	}
+	{Tags "rules" "hidden" 0xc000}
+	{Inventory 0xc000
+		{box
+			{clear}
+			{item "b33r" {cell 0 0}}
+			{item "winterhat" {cell 3 0}{user "head"}}
+		}
 	}
 	{Environment "multi/images_minimap"}
 	{Helpers
@@ -2749,11 +2765,11 @@
 				}
 				{actions
 					{"timer"
-						{time 40}
+						{time 60}
 						{title "$/wave"}
 					}
 					{"delay"
-						{time 40}
+						{time 60}
 					}
 					{"loop" 99999
 						{"set_i"
@@ -2832,7 +2848,7 @@
 						{"2.cmp_i"
 							{var "sideb_pick$"}
 							{op "=="}
-							{value 0}
+							{value 1}
 						}
 					}
 				}
@@ -2858,7 +2874,7 @@
 						{"set_i"
 							{var "sideb_pick$"}
 							{op "="}
-							{value 1}
+							{value 2}
 						}
 					}
 					{"if"
@@ -2937,7 +2953,7 @@
 						{"set_i"
 							{var "sideb_pick$"}
 							{op "="}
-							{value 1}
+							{value 2}
 						}
 					}
 					{"trigger"
@@ -2981,7 +2997,7 @@
 						{"2.cmp_i"
 							{var "sideb_pick$"}
 							{op "=="}
-							{value 1}
+							{value 0}
 						}
 					}
 				}
@@ -3007,7 +3023,7 @@
 						{"set_i"
 							{var "sideb_pick$"}
 							{op "="}
-							{value 2}
+							{value 1}
 						}
 					}
 					{"if"
@@ -3080,7 +3096,7 @@
 						{"set_i"
 							{var "sideb_pick$"}
 							{op "="}
-							{value 2}
+							{value 1}
 						}
 					}
 					{"trigger"
@@ -3217,7 +3233,7 @@
 						{"2.cmp_i"
 							{var "sidea_pick$"}
 							{op "=="}
-							{value 0}
+							{value 1}
 						}
 					}
 				}
@@ -3243,7 +3259,7 @@
 						{"set_i"
 							{var "sidea_pick$"}
 							{op "="}
-							{value 1}
+							{value 2}
 						}
 					}
 					{"if"
@@ -3322,7 +3338,7 @@
 						{"set_i"
 							{var "sidea_pick$"}
 							{op "="}
-							{value 1}
+							{value 2}
 						}
 					}
 					{"trigger"
@@ -3341,7 +3357,7 @@
 						{"2.cmp_i"
 							{var "sidea_pick$"}
 							{op "=="}
-							{value 1}
+							{value 0}
 						}
 					}
 				}
@@ -3367,7 +3383,7 @@
 						{"set_i"
 							{var "sidea_pick$"}
 							{op "="}
-							{value 2}
+							{value 1}
 						}
 					}
 					{"if"
@@ -3440,7 +3456,7 @@
 						{"set_i"
 							{var "sidea_pick$"}
 							{op "="}
-							{value 2}
+							{value 1}
 						}
 					}
 					{"trigger"
@@ -3563,6 +3579,45 @@
 					}
 					{"trigger"
 						{name "sidea/spawn_pl3"}
+					}
+				}
+			}
+			{"info/rules"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 2}
+					}
+					{"talk"
+						{selector
+							{tag rules}
+						}
+						{text "$/rules"}
+					}
+					{"delay"
+						{time 17}
+					}
+					{"talk"
+						{selector
+							{tag rules}
+						}
+						{text "$/rules"}
+					}
+				}
+			}
+			{"music/vanilla"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 1}
+					}
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop "/music/skirmish_background_02.mp3"}
+						{volume game}
+						{loop}
 					}
 				}
 			}
@@ -3796,7 +3851,7 @@
 			0 1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 0}
+	{Fog 1}
 	{EntityManager {Enabled}
 	}
 }
