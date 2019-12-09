@@ -11,7 +11,7 @@
 		{difficulty 		multiplayer}
 		;{gameDuration 		"90 min"} ; min
 		{scoreMin			25}
-		{scoreMax			50}
+		{scoreMax			100}
 		{scoreFinal			50}
 		{preparationTimeMin	0}
 		{preparationTimeMax	0}
