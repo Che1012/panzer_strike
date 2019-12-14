@@ -1,23 +1,4 @@
 {mission
-	{Entity "map_point" 0xa000
-		{Position 5715.45 797.14}
-		{xform zl -176.37 scale 0.997}
-		{Extender "map_point"
-			{name a1}
-			{team a}
-			{zoneA 0}
-			{zoneB 0}
-			{phase 0}
-			{order 1}
-			{visor SpawnPoint}
-			{allow
-				{enableCapture}
-				{enableRelease}
-			}
-		}
-		{Player 0}
-		{MID 8}
-	}
 	{Entity "flag_point" 0xe000
 		{Position 2924.87 -226}
 		{Extender "map_point"
@@ -73,7 +54,7 @@
 		{MID 2}
 	}
 	{Entity "map_point" 0x8000
-		{Position -5796.39 -1229.37}
+		{Position -5967.32 -1247.72}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b1}
@@ -92,7 +73,7 @@
 		{MID 4}
 	}
 	{Entity "map_point" 0xb008
-		{Position -5780.56 -208.27}
+		{Position -5962.53 -219.23}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b2}
@@ -111,7 +92,7 @@
 		{MID 18}
 	}
 	{Entity "map_point" 0xb009
-		{Position -5754.75 838.7}
+		{Position -5962.92 871.8}
 		{xform zl -0.75}
 		{Extender "map_point"
 			{name b3}
@@ -129,8 +110,35 @@
 		{Player 0}
 		{MID 19}
 	}
+	{Human "special/hint" 0xc000
+		{Position 6200.78 -964.63}
+		{xform zl -44.84}
+		{Player 0}
+		{MID 6}
+		{NameId 39 57}
+		{FsmState "squat"}
+	}
+	{Entity "map_point" 0xa000
+		{Position 5929.65 830.51}
+		{xform zl -176.37 scale 0.997}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
 	{Entity "map_point" 0xc001
-		{Position 5734.77 -216.43}
+		{Position 5930.74 -251.6 -1.5}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a2}
@@ -149,7 +157,7 @@
 		{MID 32}
 	}
 	{Entity "map_point" 0xc00c
-		{Position 5773.77 -1309.37}
+		{Position 5906.75 -1313.5}
 		{xform zl -176.37}
 		{Extender "map_point"
 			{name a3}
@@ -167,44 +175,6 @@
 		{Player 0}
 		{MID 33}
 	}
-	{Entity "coaster_ship_crate3" 0x801b
-		{Position -5151.18 -795.35}
-	}
-	{Entity "coaster_ship_tank" 0x801c
-		{Position -5262.78 -789.58}
-	}
-	{Entity "coaster_ship_willys" 0x801d
-		{Position -5283.28 -715.77}
-	}
-	{Entity "coaster_ship_willys" 0x801e
-		{Position -5288.91 -665.14}
-	}
-	{Entity "coaster_ship_crate2" 0x801f
-		{Position -5192.2 -689.28}
-	}
-	{Entity "coaster_ship_crate3" 0xc00f
-		{Position -5375.17 -762.29}
-		{xform zl -35.84}
-	}
-	{Entity "coaster_ship_crate3" 0xc012
-		{Position -5385.36 -680.17}
-	}
-	{Entity "coaster_ship_crate3" 0xc014
-		{Position -5457.5 -752.68}
-		{xform zl 164.31}
-	}
-	{Entity "coaster_ship_crate3" 0xc015
-		{Position -5466.47 -678.09}
-		{xform zl -90.46}
-	}
-	{Human "special/hint" 0xc000
-		{Position 6200.78 -964.63}
-		{xform zl -44.84}
-		{Player 0}
-		{MID 6}
-		{NameId 39 57}
-		{FsmState "squat"}
-	}
 	{Tags "rules" "hidden" 0xc000}
 	{Inventory 0xc000
 		{box
@@ -216,373 +186,275 @@
 	{Environment "multi/images_minimap"}
 	{Helpers
 		{event "str"}
+		{zone "circle"
+			{position 5921.77 -249.726 0}
+			{Name "pl1_ai"}
+			{Radius 150}
+		}
 		{zone "poly"
-			{position 5099.86 0.640328 0}
+			{position 5384.75 -1.96179 0}
 			{Name "pl1_spawn0"}
-			{Point -73.8606 -76.0766}
-			{Point -72.8046 73.1808}
-			{Point 76.8263 74.4337}
-			{Point 69.8388 -71.5379}
+			{Point -358.754 -73.4745}
+			{Point -357.698 75.7829}
+			{Point 355.448 68.9948}
+			{Point 361.004 -71.3033}
 		}
 		{zone "poly"
-			{position 5097.44 -150.77 0}
+			{position 5386.2 -148.8 0}
 			{Name "pl1_spawn1"}
-			{Point -68.7184 -75.2679}
-			{Point -71.5594 74.9025}
-			{Point 68.437 71.2178}
-			{Point 71.8408 -70.8524}
+			{Point -357.481 -77.2381}
+			{Point -360.322 72.9323}
+			{Point 358.285 75.4064}
+			{Point 359.518 -71.1005}
 		}
 		{zone "poly"
-			{position 5382.37 -303.611 0}
-			{Name "pl1_spawn10"}
-			{Point -63.2706 -80.1213}
-			{Point -63.2058 77.5816}
-			{Point 63.0717 79.7482}
-			{Point 63.4048 -77.2085}
-		}
-		{zone "poly"
-			{position 5380.72 -452.981 0}
-			{Name "pl1_spawn11"}
-			{Point -67.1052 -69.7327}
-			{Point -62.989 68.1046}
-			{Point 64.7961 71.9941}
-			{Point 65.298 -70.366}
-		}
-		{zone "poly"
-			{position 5100.78 -302.373 0}
+			{position 5386.77 -297.796 0}
 			{Name "pl1_spawn2"}
-			{Point -73.7082 -74.1083}
-			{Point -71.7632 75.6381}
-			{Point 71.6909 72.9171}
-			{Point 73.7805 -74.4468}
+			{Point -359.702 -78.6859}
+			{Point -357.757 71.0605}
+			{Point 358.416 76.1174}
+			{Point 359.043 -68.4921}
 		}
 		{zone "poly"
-			{position 5100.65 -450.72 0}
+			{position 5386.77 -444.459 0}
 			{Name "pl1_spawn3"}
-			{Point -73.7364 -74.4258}
-			{Point -73.0664 72.4185}
-			{Point 71.6017 71.3805}
-			{Point 75.2011 -69.3732}
+			{Point -359.858 -80.6869}
+			{Point -359.188 66.1574}
+			{Point 359.003 76.1416}
+			{Point 360.044 -61.612}
 		}
 		{zone "poly"
-			{position 5254.08 4.54434 0}
-			{Name "pl1_spawn4"}
-			{Point -74.0699 -78.4806}
-			{Point -72.1619 75.5977}
-			{Point 74.4431 79.18}
-			{Point 71.7887 -76.2972}
-		}
-		{zone "poly"
-			{position 5249.59 -150.495 0}
-			{Name "pl1_spawn5"}
-			{Point -71.5836 -74.2343}
-			{Point -75.629 72.4924}
-			{Point 75.9616 77.5022}
-			{Point 71.251 -75.7603}
-		}
-		{zone "poly"
-			{position 5248.71 -304.555 0}
-			{Name "pl1_spawn6"}
-			{Point -69.6444 -76.0585}
-			{Point -70.7903 78.8325}
-			{Point 71.6422 76.4116}
-			{Point 68.7925 -79.1857}
-		}
-		{zone "poly"
-			{position 5247.28 -452.99 0}
-			{Name "pl1_spawn7"}
-			{Point -68.6207 -70.0834}
-			{Point -67.3161 71.7512}
-			{Point 70.8561 68.1937}
-			{Point 65.0806 -69.8615}
-		}
-		{zone "poly"
-			{position 5387.32 8.05843 0}
-			{Name "pl1_spawn8"}
-			{Point -59.2148 -79.947}
-			{Point -58.0685 76.5274}
-			{Point 59.2312 77.701}
-			{Point 58.0521 -74.2814}
-		}
-		{zone "poly"
-			{position 5385.16 -147.329 0}
-			{Name "pl1_spawn9"}
-			{Point -62.8602 -80.0537}
-			{Point -58.2747 74.7159}
-			{Point 60.7405 80.7267}
-			{Point 60.3944 -75.3888}
-		}
-		{zone "poly"
-			{position 5235.13 -220.952 0}
+			{position 5385.67 -220.507 0}
 			{Name "pl1_tag"}
-			{Point -211.624 -301.911}
-			{Point -211.059 296.13}
-			{Point 211.67 308.365}
-			{Point 211.014 -302.584}
+			{Point -362.165 -302.357}
+			{Point -361.6 295.685}
+			{Point 361.271 291.564}
+			{Point 362.494 -284.892}
+		}
+		{zone "circle"
+			{position 5925.45 834.217 0}
+			{Name "pl2_ai"}
+			{Radius 150}
 		}
 		{zone "poly"
-			{position 5237.81 1053.07 0}
+			{position 5384.92 1050.68 0}
 			{Name "pl2_spawn0"}
-			{Point -208.396 -74.605}
-			{Point -206.327 74.672}
-			{Point 206.012 74.5693}
-			{Point 208.71 -74.6364}
+			{Point -355.504 -72.2155}
+			{Point -353.435 77.0615}
+			{Point 350.245 68.3308}
+			{Point 358.693 -73.1768}
 		}
 		{zone "poly"
-			{position 5237.6 904.562 0}
+			{position 5385.68 903.888 0}
 			{Name "pl2_spawn1"}
-			{Point -209.22 -73.0927}
-			{Point -208.636 72.2669}
-			{Point 209.165 72.7021}
-			{Point 208.691 -71.8763}
+			{Point -357.299 -72.4186}
+			{Point -356.715 72.941}
+			{Point 358.015 71.1283}
+			{Point 355.999 -71.6507}
 		}
 		{zone "poly"
-			{position 5237.71 759.002 0}
+			{position 5385.6 758.483 0}
 			{Name "pl2_spawn2"}
-			{Point -208.963 -72.5878}
-			{Point -208.429 70.5586}
-			{Point 209.05 74.3118}
-			{Point 208.342 -72.2826}
+			{Point -356.852 -72.0689}
+			{Point -356.318 71.0776}
+			{Point 356.911 71.4256}
+			{Point 356.258 -70.4344}
 		}
 		{zone "poly"
-			{position 5237.8 615.92 0}
+			{position 5384.74 615.655 0}
 			{Name "pl2_spawn3"}
-			{Point -208.06 -72.3736}
-			{Point -211.428 71.6917}
-			{Point 208.133 71.3391}
-			{Point 211.355 -70.6571}
+			{Point -355.002 -72.1081}
+			{Point -358.37 71.9572}
+			{Point 356.07 69.5713}
+			{Point 357.301 -69.4203}
 		}
 		{zone "poly"
-			{position 5237.8 835.537 0}
+			{position 5383.35 834.799 0}
 			{Name "pl2_tag"}
-			{Point -209.827 -293.202}
-			{Point -208.681 290.482}
-			{Point 207.426 291.867}
-			{Point 211.082 -289.147}
+			{Point -355.376 -292.464}
+			{Point -354.23 291.22}
+			{Point 352.221 286.458}
+			{Point 357.385 -285.214}
+		}
+		{zone "circle"
+			{position 5924.15 -1303.96 0}
+			{Name "pl3_ai"}
+			{Radius 150}
 		}
 		{zone "poly"
-			{position 5247.93 -1059.41 0}
+			{position 5393.88 -1058.55 0}
 			{Name "pl3_spawn0"}
-			{Point -207.468 -73.5857}
-			{Point -203.708 69.5476}
-			{Point 206.309 74.8131}
-			{Point 204.867 -70.7751}
+			{Point -353.415 -74.4427}
+			{Point -349.655 68.6906}
+			{Point 350.218 75.4995}
+			{Point 352.852 -69.7475}
 		}
 		{zone "poly"
-			{position 5245.7 -1205.89 0}
+			{position 5393.38 -1204.62 0}
 			{Name "pl3_spawn1"}
-			{Point -207.507 -75.0383}
-			{Point -206.415 73.6481}
-			{Point 208.404 74.2697}
-			{Point 205.518 -72.8795}
+			{Point -355.19 -76.3039}
+			{Point -354.098 72.3825}
+			{Point 354.207 75.9838}
+			{Point 355.081 -72.0624}
 		}
 		{zone "poly"
-			{position 5244.62 -1351.92 0}
+			{position 5393.03 -1351.34 0}
 			{Name "pl3_spawn2"}
-			{Point -206.713 -72.953}
-			{Point -206.891 71.8053}
-			{Point 207.298 72.1598}
-			{Point 206.306 -71.0121}
+			{Point -355.119 -73.5327}
+			{Point -355.297 71.2256}
+			{Point 356.008 71.8812}
+			{Point 354.408 -69.5741}
 		}
 		{zone "poly"
-			{position 5243.86 -1494.5 0}
+			{position 5393.01 -1492.47 0}
 			{Name "pl3_spawn3"}
-			{Point -205.21 -70.9901}
-			{Point -205.514 68.8377}
-			{Point 206.515 71.9634}
-			{Point 204.21 -69.811}
+			{Point -354.358 -73.0179}
+			{Point -354.662 66.8099}
+			{Point 355.136 70.3638}
+			{Point 353.883 -64.1558}
 		}
 		{zone "poly"
-			{position 5246.19 -1275.66 0}
+			{position 5391.89 -1273.99 0}
 			{Name "pl3_tag"}
-			{Point -207.382 -289.005}
-			{Point -205.641 286.408}
-			{Point 210.445 289.533}
-			{Point 202.579 -286.936}
+			{Point -353.08 -290.675}
+			{Point -351.339 284.738}
+			{Point 351.17 289.186}
+			{Point 353.25 -283.249}
+		}
+		{zone "circle"
+			{position -5984.19 -217.458 0}
+			{Name "pl4_ai"}
+			{Radius 150}
 		}
 		{zone "poly"
-			{position -5097.67 -446.166 0}
+			{position -5394.86 -445.253 0}
 			{Name "pl4_spawn0"}
-			{Point -76.8242 -68.8011}
-			{Point -72.6518 70.0958}
-			{Point 74.8635 70.7636}
-			{Point 74.6125 -72.0583}
+			{Point -369.855 -61.4278}
+			{Point -374.008 64.5484}
+			{Point 372.057 69.8506}
+			{Point 371.806 -72.9713}
 		}
 		{zone "poly"
-			{position -5097.59 -300.295 0}
+			{position -5391.07 -299.946 0}
 			{Name "pl4_spawn1"}
-			{Point -73.7292 -74.4781}
-			{Point -75.0437 74.1365}
-			{Point 74.9659 74.4908}
-			{Point 73.8069 -74.1492}
+			{Point -369.965 -76.0346}
+			{Point -365.772 76.3905}
+			{Point 368.448 74.142}
+			{Point 367.289 -74.498}
 		}
 		{zone "poly"
-			{position -5410.5 -152.611 0}
-			{Name "pl4_spawn10"}
-			{Point -85.9165 -74.3398}
-			{Point -84.2253 73.9143}
-			{Point 84.4974 76.9386}
-			{Point 85.6444 -76.5131}
-		}
-		{zone "poly"
-			{position -5409.63 0.274649 0}
-			{Name "pl4_spawn11"}
-			{Point -84.8885 -78.3934}
-			{Point -84.3129 77.2385}
-			{Point 87.1598 75.8795}
-			{Point 82.0416 -74.7246}
-		}
-		{zone "poly"
-			{position -5098.47 -150.377 0}
+			{position -5390.58 -150.743 0}
 			{Name "pl4_spawn2"}
-			{Point -78.0807 -75.2639}
-			{Point -74.8989 75.4328}
-			{Point 76.7668 74.4632}
-			{Point 76.2128 -74.632}
+			{Point -367.762 -74.3269}
+			{Point -369.438 73.7647}
+			{Point 368.877 74.8287}
+			{Point 368.323 -74.2665}
 		}
 		{zone "poly"
-			{position -5098.78 0.87652 0}
+			{position -5391.19 -1.32305 0}
 			{Name "pl4_spawn3"}
-			{Point -77.9586 -76.7059}
-			{Point -76.0746 77.9484}
-			{Point 75.8356 74.4081}
-			{Point 78.1977 -75.6507}
+			{Point -368.439 -71.0524}
+			{Point -370.41 67.8959}
+			{Point 368.243 76.6077}
+			{Point 370.606 -73.4511}
 		}
 		{zone "poly"
-			{position -5249.43 -447.979 0}
-			{Name "pl4_spawn4"}
-			{Point -73.9413 -72.474}
-			{Point -74.1201 68.9597}
-			{Point 75.2588 72.2485}
-			{Point 72.8026 -68.7341}
-		}
-		{zone "poly"
-			{position -5248.86 -302.442 0}
-			{Name "pl4_spawn5"}
-			{Point -74.1053 -75.8045}
-			{Point -74.8721 73.0489}
-			{Point 73.7989 75.4606}
-			{Point 75.1785 -72.705}
-		}
-		{zone "poly"
-			{position -5250.86 -150.878 0}
-			{Name "pl4_spawn6"}
-			{Point -72.9897 -77.573}
-			{Point -74.7956 75.1832}
-			{Point 74.1369 75.591}
-			{Point 73.6484 -73.2012}
-		}
-		{zone "poly"
-			{position -5250.22 0.470523 0}
-			{Name "pl4_spawn7"}
-			{Point -75.7224 -75.6829}
-			{Point -71.498 74.6789}
-			{Point 74.6304 76.7327}
-			{Point 72.59 -75.7287}
-		}
-		{zone "poly"
-			{position -5408.12 -448.552 0}
-			{Name "pl4_spawn8"}
-			{Point -81.4719 -70.7046}
-			{Point -85.9881 71.7045}
-			{Point 82.7916 70.3299}
-			{Point 84.6684 -71.3297}
-		}
-		{zone "poly"
-			{position -5409.93 -302.702 0}
-			{Name "pl4_spawn9"}
-			{Point -85.4506 -72.8154}
-			{Point -86.0529 74.5094}
-			{Point 85.4853 72.9983}
-			{Point 86.0183 -74.6923}
-		}
-		{zone "poly"
-			{position -5258.93 -220.91 0}
+			{position -5392.82 -220.947 0}
 			{Name "pl4_tag"}
-			{Point -237.372 -300.041}
-			{Point -237.149 300.21}
-			{Point 240.461 297.17}
-			{Point 234.06 -297.339}
+			{Point -369.437 -284.999}
+			{Point -372.874 285.094}
+			{Point 374.356 297.207}
+			{Point 367.955 -297.302}
+		}
+		{zone "circle"
+			{position -5974.2 -1253.34 0}
+			{Name "pl5_ai"}
+			{Radius 150}
 		}
 		{zone "poly"
-			{position -5262.6 -1493.67 0}
+			{position -5415.53 -1497.43 0}
 			{Name "pl5_spawn0"}
-			{Point -218.228 -68.1799}
-			{Point -217.512 69.5217}
-			{Point 215.229 70.4277}
-			{Point 220.512 -71.7695}
+			{Point -366.77 -70.1469}
+			{Point -374.836 63.9643}
+			{Point 368.161 74.1899}
+			{Point 373.444 -68.0073}
 		}
 		{zone "poly"
-			{position -5262.96 -1351.46 0}
+			{position -5420.33 -1354.74 0}
 			{Name "pl5_spawn1"}
-			{Point -214.543 -71.4542}
-			{Point -215.48 71.5779}
-			{Point 213.981 69.8534}
-			{Point 216.042 -69.9771}
+			{Point -371.534 -74.7912}
+			{Point -373.232 68.3607}
+			{Point 371.353 73.1305}
+			{Point 373.414 -66.7}
 		}
 		{zone "poly"
-			{position -5263.28 -1204.5 0}
+			{position -5421.63 -1207.66 0}
 			{Name "pl5_spawn2"}
-			{Point -214.935 -74.5721}
-			{Point -212.388 73.4799}
-			{Point 214.03 75.8517}
-			{Point 213.294 -74.7596}
+			{Point -373.199 -77.8046}
+			{Point -370.834 70.4023}
+			{Point 372.385 79.0068}
+			{Point 371.649 -71.6045}
 		}
 		{zone "poly"
-			{position -5261.96 -1058.2 0}
+			{position -5418.95 -1059.61 0}
 			{Name "pl5_spawn3"}
-			{Point -213.871 -71.5274}
-			{Point -216.241 71.2638}
-			{Point 217.474 69.7145}
-			{Point 212.638 -69.4508}
+			{Point -374.846 -72.2608}
+			{Point -369.243 69.178}
+			{Point 374.462 71.124}
+			{Point 369.626 -68.0413}
 		}
 		{zone "poly"
-			{position -5260.73 -1276.13 0}
+			{position -5415.89 -1278.44 0}
 			{Name "pl5_tag"}
-			{Point -220.133 -285.179}
-			{Point -216.879 288.133}
-			{Point 216.1 287.912}
-			{Point 220.912 -290.866}
+			{Point -372.482 -287.894}
+			{Point -374.848 286.232}
+			{Point 371.259 290.22}
+			{Point 376.071 -288.558}
+		}
+		{zone "circle"
+			{position -5961.16 881.26 0}
+			{Name "pl6_ai"}
+			{Radius 150}
 		}
 		{zone "poly"
-			{position -5260.93 614.921 0}
+			{position -5404.37 616.912 0}
 			{Name "pl6_spawn0"}
-			{Point -219.894 -75.4373}
-			{Point -219.576 72.2704}
-			{Point 217.415 71.6392}
-			{Point 222.055 -68.4723}
+			{Point -359.289 -68.3046}
+			{Point -367.061 69.1192}
+			{Point 360.855 69.6484}
+			{Point 365.495 -70.4631}
 		}
 		{zone "poly"
-			{position -5262.54 759.079 0}
+			{position -5408.4 760.006 0}
 			{Name "pl6_spawn1"}
-			{Point -217.781 -71.3956}
-			{Point -216.994 69.6928}
-			{Point 218.719 73.0368}
-			{Point 216.055 -71.3341}
+			{Point -364.515 -70.417}
+			{Point -361.987 70.5689}
+			{Point 364.583 72.1095}
+			{Point 361.919 -72.2614}
 		}
 		{zone "poly"
-			{position -5262.02 904.203 0}
+			{position -5407.15 905.886 0}
 			{Name "pl6_spawn2"}
-			{Point -218.545 -74.8938}
-			{Point -218.225 71.6702}
-			{Point 218.349 74.2985}
-			{Point 218.421 -71.0748}
+			{Point -365.291 -71.3882}
+			{Point -361.739 71.5306}
+			{Point 363.479 72.6155}
+			{Point 363.551 -72.7578}
 		}
 		{zone "poly"
-			{position -5262.78 1050.91 0}
+			{position -5405.8 1051.18 0}
 			{Name "pl6_spawn3"}
-			{Point -216.965 -73.9431}
-			{Point -219.238 73.1852}
-			{Point 217.484 71.0321}
-			{Point 218.719 -70.2741}
+			{Point -361.716 -71.2362}
+			{Point -360.525 71.0142}
+			{Point 360.503 70.7641}
+			{Point 361.738 -70.5421}
 		}
 		{zone "poly"
-			{position -5261.48 833.634 0}
+			{position -5403.3 836.315 0}
 			{Name "pl6_tag"}
-			{Point -219.914 -295.239}
-			{Point -218.611 291.226}
-			{Point 216.356 290.029}
-			{Point 222.168 -286.016}
+			{Point -362.053 -285.791}
+			{Point -360.122 287.14}
+			{Point 358.181 287.348}
+			{Point 363.993 -288.697}
 		}
 		{zone "poly"
 			{position 3764.89 -226.361 0}
@@ -2889,17 +2761,11 @@
 							{function "pl4_spawn"}
 						}
 						{"call"
-							{function "pl4_spawn_center"}
-						}
-						{"call"
-							{function "pl4_spawn_cannon"}
-						}
-						{"call"
 							{function "pl4_reset_tags"}
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3042,7 +2908,7 @@
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3160,7 +3026,7 @@
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3274,17 +3140,11 @@
 							{function "pl1_spawn"}
 						}
 						{"call"
-							{function "pl1_spawn_center"}
-						}
-						{"call"
-							{function "pl1_spawn_cannon"}
-						}
-						{"call"
 							{function "pl1_reset_tags"}
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3402,7 +3262,7 @@
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3520,7 +3380,7 @@
 						}
 					}
 					{"delay"
-						{time 1}
+						{time 2}
 					}
 					{"actor_state"
 						{selector
@@ -3621,6 +3481,268 @@
 					}
 				}
 			}
+			{"ai/sidea"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 30}
+					}
+					{"loop" 99999
+						{"actor_state"
+							{selector
+								{zone "pl1_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"actor_state"
+							{selector
+								{zone "pl2_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"actor_state"
+							{selector
+								{zone "pl3_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl1_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "54"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl2_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "55"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl3_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "56"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl1_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "54"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl2_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "55"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl3_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "56"}
+							}
+						}
+						{"delay"
+							{time 25}
+						}
+					}
+				}
+			}
+			{"ai/sideb"
+				{condition
+				}
+				{actions
+					{"delay"
+						{time 30}
+					}
+					{"loop" 99999
+						{"actor_state"
+							{selector
+								{zone "pl4_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"actor_state"
+							{selector
+								{zone "pl5_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"actor_state"
+							{selector
+								{zone "pl6_tag"}
+							}
+							{control user}
+							{fire_mode hold}
+							{move_mode hold}
+							{move_radius 0}
+							{weapon_prepare on}
+							{ai_move
+								{mode disable}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl4_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "57"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl5_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "58"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl6_ai"}
+									{type human}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "59"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl4_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "57"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl5_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "58"}
+							}
+						}
+						{"waypoint"
+							{who
+								{type actor}
+								{actors
+									{zone "pl6_ai"}
+									{type vehicle}
+								}
+							}
+							{action
+								{type start}
+								{waypoint "59"}
+							}
+						}
+						{"delay"
+							{time 25}
+						}
+					}
+				}
+			}
 		}
 		{waypoints "side_a"
 			{"0"
@@ -3712,6 +3834,15 @@
 			{"53"
 				{position 3913.05 -486.892 0}
 				{transition "14"}
+			}
+			{"54"
+				{position 5399.72 -223.986 0}
+			}
+			{"55"
+				{position 5417.51 819.634 0}
+			}
+			{"56"
+				{position 5396.58 -1280.5 0}
 			}
 			{"6"
 				{position 30.0539 -143.773 0}
@@ -3835,6 +3966,15 @@
 				{position -3791.71 21.4525 0}
 				{transition "33"}
 			}
+			{"57"
+				{position -5357.4 -231.903 0}
+			}
+			{"58"
+				{position -5381.74 -1313.38 0}
+			}
+			{"59"
+				{position -5339.91 833.734 0}
+			}
 		}
 	}
 	{Players
@@ -3851,7 +3991,7 @@
 			0 1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 1}
+	{Fog 0}
 	{EntityManager {Enabled}
 	}
 }
