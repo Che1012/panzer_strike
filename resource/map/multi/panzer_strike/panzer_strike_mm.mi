@@ -457,20 +457,20 @@
 			{Point 363.993 -288.697}
 		}
 		{zone "poly"
-			{position 3764.89 -226.361 0}
+			{position 3538.05 -194.489 0}
 			{Name "sidea_spawn_zone"}
-			{Point -213.213 -309.093}
-			{Point -222.048 309.582}
-			{Point 221.371 298.098}
-			{Point 213.891 -298.586}
+			{Point -417.643 -436.862}
+			{Point -430.937 424.672}
+			{Point 419.768 585.099}
+			{Point 428.812 -572.91}
 		}
 		{zone "poly"
-			{position -3624.25 -227.874 0}
+			{position -3559.25 -152.676 0}
 			{Name "sideb_spawn_zone"}
-			{Point -257.024 -290.775}
-			{Point -248.315 294.551}
-			{Point 253.124 296.454}
-			{Point 252.216 -300.229}
+			{Point -467.477 -446.596}
+			{Point -487.305 593.448}
+			{Point 497.776 345.308}
+			{Point 457.006 -492.16}
 		}
 		{zone "poly"
 			{position 3577.26 -234.547 0}
@@ -3991,7 +3991,7 @@
 			0 1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 0}
+	{Fog 1}
 	{EntityManager {Enabled}
 	}
 }
