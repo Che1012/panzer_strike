@@ -1,0 +1,2 @@
+#issue1_spawn - create more spawn points.
+#issue2_strPoints - add more central strategic points.
