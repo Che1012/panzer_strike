@@ -5997,7 +5997,7 @@
 						{function "pl1_wp_right"}
 					}
 					{"delay"
-						{time 15}
+						{time 90}
 					}
 					{"trigger"
 						{name "sidea/wp"}
@@ -6018,7 +6018,7 @@
 						{function "pl4_wp_right"}
 					}
 					{"delay"
-						{time 15}
+						{time 90}
 					}
 					{"trigger"
 						{name "sideb/wp"}
@@ -6814,7 +6814,7 @@
 						{selector
 							{tag rules}
 						}
-						{text "$/rules"}
+						{text "$/rules_rus"}
 					}
 				}
 			}
@@ -7369,7 +7369,7 @@
 			0 1 1 1 1 1 1 1 1
 		}
 	}
-	{Fog 0}
+	{Fog 1}
 	{EntityManager {Enabled}
 	}
 }

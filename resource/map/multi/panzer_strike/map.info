@@ -1,5 +1,5 @@
 ;SDL
 {game
   {maxPlayers 6}
-  {texMod 1}
+  {texMod 0}
 }	

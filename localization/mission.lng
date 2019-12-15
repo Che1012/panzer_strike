@@ -3,6 +3,7 @@
 		{"panzer_strike"
 			{"name" "Panzer strike <e(shadow)><c(bebebe)>3x3</c>"}
 			{"rules" "Welcome to Panzer Strike arena, captain!\n Capture stategic points to win.\n\n 1) Place your soldiers in square.\n 2) Wait for the next wave.\n 3) Control your soldier or vehicle manualy.\n 4) Control your cannons to create defence.\n 5) Enjoy endlless warfare!\n\n Good Luck!"}
+			{"rules_rus" "Добро пожаловать на арену, капитан!\n Захватите стратегические точки для победы.\n\n 1) Поместите свои войска в область прямоугольника.\n 2) Подождите следующей волны.\n 3) Управляйте техникой или солдатами в ручном режиме, если потребуется.\n 4) Расставляйте артиллерию и пушки для обороны.\n 5) Наслаждайтесь масшатабным сражением!\n\n Удачи!"}
 			{"wave" "Next wave in:"}
 		}
 	}
