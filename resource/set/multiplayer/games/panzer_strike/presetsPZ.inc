@@ -80,6 +80,47 @@
 		(include "bots_generic.inc")
 	}
 )
+; == TANKS_PANZER ==
+; standard presets
+;----------------------------------------------------------------
+(define "tanks_panzer"
+	{common
+		{unitset
+			{value "heavy|supply|medium|light|single|tankmans^arcade"}
+		}
+		{commandPoints "*=%cp"}
+		{balancingFactorBonus {cp 1.0} {mp 1.0} }
+		{chargeFactors
+			{value "*=0"}
+		}
+		{budgets
+			{vehicle
+				{mode "standard"}
+				{resource 
+					{start 		%start}
+					{finish 	%finish}
+					{growTime	1200}		; in seconds
+					{growTable 	"1.00"}
+					{payback
+						{cp 		"0		25		50 		60		70		80		90"}  
+						{restore 	"1.0	1.0		1.0		1.0		1.0		1.0		1.0"}
+					}
+				} 
+				{buttons "squad1 squad2 v1 v2 v3 v4 v5"}
+			}
+			{hero
+				{resource 
+					{start 		0}
+				} 
+				{buttons "hero"}
+				{tag "special"}
+			}
+		} 
+	}
+	{bots
+		(include "bots_generic.inc")
+	}
+)
 ; == CUSTOM_PANZER ==
 ; custom presets
 ;----------------------------------------------------------------
@@ -137,6 +178,21 @@
 		{unitMode "std_panzer"}
 		{specMode "panzer_10000"}
 		("std_panzer" 			start(1000) finish(10000) cp(1000))
+	}
+;-----------------------------------------------------------------
+;TANKS_PANZER
+;-----------------------------------------------------------------
+	{"c:tanks_panzer_5000"
+		{gameMode "tanks_panzer"}
+		{unitMode "tanks_panzer"}
+		{specMode "panzer_5000"}
+		("tanks_panzer" 			start(200) finish(5000) cp(1000))
+	}
+	{"c:tanks_panzer_10000"
+		{gameMode "tanks_panzer"}
+		{unitMode "tanks_panzer"}
+		{specMode "panzer_10000"}
+		("tanks_panzer" 			start(1000) finish(10000) cp(1000))
 	}
 ;------------------------------------------------------------------
 ;CUSTOM_PANZER

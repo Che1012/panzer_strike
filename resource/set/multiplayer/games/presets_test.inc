@@ -12,7 +12,7 @@
 		}
 		{budgets
 			{vehicle
-				{mode "standard"}
+				{mode "all^cannon^artillery^arcade^inf_only single"}
 				{resource 
 					{start 		%start}
 					{finish 	%finish}
